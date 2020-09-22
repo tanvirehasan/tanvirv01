@@ -1,0 +1,70 @@
+@media only screen and (min-width: 600px) {
+
+	.whatido{
+		display: flex;
+		box-sizing: border-box;
+		clear:both;
+	}
+
+
+	.whatidobox{
+		flex: 50%;
+		padding: 10px;
+		box-sizing: border-box;
+	}
+
+	.service{
+		width: 31%;
+		float: left;
+		margin:5px;
+	}
+
+
+	.aboutme{
+		display: flex;
+		box-sizing: border-box;
+		clear:both;
+	}
+
+	.aboutext{
+		width: 70%;
+		padding: 10px;
+		box-sizing: border-box;
+	}
+
+
+	.aboutext p{
+		font-family: arial;
+		line-height: 25px;
+		color: #707070;
+	}
+
+	.aboutimage{
+		width: 25%;
+		background: url(../img/profilepci.jpg);
+		box-sizing: border-box;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+	h1{ font-size: 25px; }
+	nav{height:60px; margin-bottom: 60px;}
+	.manNav{ display: none; height: 100vh; background: #fff; width: 100%; padding: 0; margin: 0;}
+	.manNav ul li{float: none; width: 100%; padding: 0; margin: 0; position: relative;}
+	.mnav{display: block;}
+	.navbar-brand img{width:200px;	padding:20px 0px;}
+	.slider{margin-top: 60px;}
+	.title{ padding-bottom: 10px; }
+	.container{width:90%; margin: 0px auto; }
+	.row{padding-top: 30px; padding-bottom: 30px;}
+	.service{width:100%; margin: 0px auto; margin-bottom: 20px; }
+	.aboutext p{ font-family: arial; line-height: 25px;	color: #707070; text-align: justify; }
+	.aboutimage{width: 100%; height: 400px; background: url(../img/profilepci.jpg); box-sizing: border-box; background-repeat: no-repeat; background-position: center;}
+	.servicebox{float: none; width:100%; height: 250px; margin: 0px auto; padding: 5px; }
+
+}
